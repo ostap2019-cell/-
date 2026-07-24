@@ -1,62 +1,61 @@
-body {
-    background-image: url(https://img.freepik.com/premium-vector/white-cat-semaless-repeat-pattern-vector-backgorund-tile-with-paws_654662-5571.jpg?semt=ais_hybrid&w=740);
+body{
+    background-image: url(62bf5031f4b859e0becdadcae08c0e6a.jpg);
+    background-size:cover;
 }
 h1{
-    font-size: 40px;
-    color:brown;
-    background-color: rgb(118, 189, 165, 0.5);
-    border: 4px solid rgb(81, 216,54);
-    border-radius: 50px;
+    font-size: 60 px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(99, 185, 205, 0.5);
+    border: 4px solid  (55, 21, 165);
+    border-radius:50px;
+    text-align:center;
+    margin: 0 auto;
 }
-h2{
-    font-size: 30px;
-    color:brown;
+
+h1,p,img{
+    text-align:center;
+    margin: 0 auto;
 }
-h1,h2,p,img,li{
-    text-align: center;
+p{
+    font-size: 60px;
+    color: rgb(247, 247, 250);
+    font-size: 60 px;
+    text-align:justify;
+    margin: 0 auto;
+    margin-left: 11%;
+    margin-right: 11%;
+    background-color: rgba(99, 197, 219, 0.5);
+    border: 4px solid rgba(255, 255, 255, 0.848)
 }
-.photo{
-    color: blue;
-}
-.catfield{
-    margin-bottom: 4px;
-}
-img { 
+img{
     display: block;
-    margin: 0 auto; 
-    box-shadow: 5px 5px 10px gray;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
     transition: transform 0.3s;
 }
+
 img:hover{
     transform: scale(1.1);
 }
-ul{
-    text-align:center;
-    list-style-position:inside;
-    list-style-type:square;
+#rik{
+    margin-top:50px;
 }
-ol{
-    text-align: center;
-    list-style-position:inside;
-    list-style-type: upper-roman;
-    margin-bottom: 20px;
+#pik{
+    margin-top:50px;
 }
-input, button {
-    padding: 10px 15px;
-    border-radius: 11px;
-    border: 2px solid rgb(225, 218, 218);
-    border: 2px solid rgb(100, 180, 0);
+#flower{
+    margin-top:50px;
 }
-button {
-    background-color:brown;
-    color: white;
-    cursor: pointer;
+#sun{
+    margin-top:50px;
 }
-button:hover {
-    background-color:rgb(133, 10, 10);}
 
-.dark-theme{
-    background-color:rgb(17, 5, 64);
-    background-image: none;
-    color: rgb(225, 225, 225);
+.kartinki{
+    display: flex;
+    flex-wrap: wrap;
+    scale: 130%;
+    margin-top: 5%;
+}
+#ry{
+    margin-top:50px;
 }
